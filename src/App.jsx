@@ -9,6 +9,7 @@ return(
         <Navbar/>
         <Home/>
         <Service/>
+        <h1>Hello</h1>
     </div>
 )
 }
