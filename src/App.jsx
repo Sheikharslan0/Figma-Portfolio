@@ -10,6 +10,7 @@ return(
         <Home/>
         <Service/>
         <h1>Hello</h1>
+        <p>Hello My name is Ibrahim</p>
     </div>
 )
 }
