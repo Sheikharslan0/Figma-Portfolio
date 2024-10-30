@@ -12,7 +12,7 @@ const Home = () => {
       <div className="w-full h-full bg-black bg-opacity-60 flex  p-10">
         <div className="text-white space-y-4 max-w-lg">
           <h2 className="text-3xl md:text-4xl opacity-95 ">Hi, I am</h2>
-          <p className="text-4xl md:text-[65px]">Sheikh Arslan</p>
+          <p className="text-4xl md:text-[65px]">Sheikh Ibrahim</p>
           <p className="font-bold text-green-600 md:text-[70px]">Web Developer</p>
 
           <div className="flex space-x-4 mb-4">
