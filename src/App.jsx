@@ -9,7 +9,7 @@ return(
         <Navbar/>
         <Home/>
         <Service/>
-        <h1>Hello I am arslan</h1>
+        <h1>Hello</h1>
     </div>
 )
 }
