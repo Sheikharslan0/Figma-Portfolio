@@ -28,22 +28,23 @@ const Navbar = () => {
         }`}
       >
         <li className="relative py-2 md:py-0 text-center transition duration-300 transform hover:scale-105 group">
-          <a  className="hover:text-green-400">Home</a>
+          <a href='#about' className="hover:text-green-400 cursor-pointer">About Me</a>
           <span className="absolute left-0 right-0 bottom-0 h-[2px] bg-green-600 scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
         </li>
         <li className="relative py-2 md:py-0 text-center transition duration-300 transform hover:scale-105 group">
-          <a  className="hover:text-green-400">Services</a>
+          <a href='#services'  className="hover:text-green-400 cursor-pointer">Services</a>
           <span className="absolute left-0 right-0 bottom-0 h-[2px] bg-green-600 scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
         </li>
         <li className="relative py-2 md:py-0 text-center transition duration-300 transform hover:scale-105 group">
-          <a  className="hover:text-green-400">About ME</a>
+          <a href='#project' className="hover:text-green-400 cursor-pointer">Portfolio</a>
           <span className="absolute left-0 right-0 bottom-0 h-[2px] bg-green-600 scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
         </li>
         <li className="relative py-2 md:py-0 text-center transition duration-300 transform hover:scale-105 group">
-          <a className="hover:text-green-400">Portfolio</a>
+          <a href='#contact' className="hover:text-green-400 cursor-pointer">Contact</a>
+         
           <span className="absolute left-0 right-0 bottom-0 h-[2px] bg-green-600 scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
         </li>
-        <li className="md:hidden py-2 text-center">
+        <li className="md:hidden py-2 text-center cursor-pointer">
           <a  className="flex gap-1 bg-green-600 px-4 py-2 rounded-lg justify-center transition duration-300 transform hover:scale-105">
             <AiOutlineUser size={20} /> Contact Me       </a>
         </li>
